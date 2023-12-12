@@ -1,0 +1,45 @@
+import java.util.HashMap;
+
+
+public class GSP
+{
+
+
+  public static void main (String[]args)
+  {
+
+    HashMap < String, Integer > map = new HashMap <> ();
+
+
+    map.put ("Gauri", 10);
+    map.put ("Samu", 30);
+    map.put ("Ishuu", 20);
+     map.put ("Pratiksha", 50);
+
+
+    System.out.println ("Size of map is:- " + map.size ());
+
+
+    System.out.println (map);
+
+    if (map.containsKey ("Samu"))
+      {
+
+
+	Integer a = map.get ("Samu");
+
+
+	  System.out.println ("value for key" + " \"Samu\" is:- " + a);
+      }
+
+    map.remove ("Gauri");
+    System.out.println ("Size of map is:- " + map.size ());
+
+  }
+}
+
+OUTPUT:
+Size of map is:- 4
+{Samu=30, Gauri=10, Ishuu=20,pratiksha=50}
+value for key "Samu" is:- 30
+Size of map is:- 3
