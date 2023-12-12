@@ -8,7 +8,7 @@ public class GSP
   public static void main (String[]args)
   {
 
-    HashMap < String, Integer > map = new HashMap <> ();
+    HashMap < String, Integer > map = new HashMetap <> ();
 
 
     map.put ("Gauri", 10);
