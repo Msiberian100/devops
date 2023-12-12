@@ -15,8 +15,7 @@ public class GSP
     map.put ("Samu", 30);
     map.put ("Ishuu", 20);
      map.put ("Pratiksha", 50);
-
-
+dd
     System.out.println ("Size of map is:- " + map.size ());
 
 
